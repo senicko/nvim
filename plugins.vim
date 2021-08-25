@@ -17,6 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'glepnir/lspsaga.nvim'
 		
 	" Visual
-	Plug 'morhetz/gruvbox'
+	Plug 'sainnhe/everforest'
 	Plug 'hoob3rt/lualine.nvim'
 call plug#end()
