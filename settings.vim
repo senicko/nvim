@@ -1,5 +1,5 @@
 syntax on
-set nu 			
+set rnu
 set nocompatible
 set showmatch
 set ignorecase
@@ -10,4 +10,4 @@ set softtabstop=4
 set shiftwidth=4
 set autoindent
 filetype plugin indent on
-set cc=80
+

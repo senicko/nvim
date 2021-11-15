@@ -1,9 +1,7 @@
 call plug#begin('~/.config/nvim/autoload/plugged')
 	" Better writing experience
-    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kyazdani42/nvim-tree.lua'
 	Plug 'jiangmiao/auto-pairs'
-    Plug 'hrsh7th/nvim-compe'
     Plug 'sbdchd/neoformat'
 
 	" File exploring
@@ -12,14 +10,21 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 	" Git
 	Plug 'lewis6991/gitsigns.nvim'
-	
+
 	" Languages support
     Plug 'neovim/nvim-lspconfig'
     Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-	Plug 'glepnir/lspsaga.nvim'
-		
+	Plug 'hrsh7th/cmp-nvim-lsp'
+	Plug 'hrsh7th/cmp-buffer'
+	Plug 'hrsh7th/cmp-path'
+	Plug 'hrsh7th/cmp-cmdline'
+	Plug 'hrsh7th/nvim-cmp'
+
 	" Visual
-	Plug 'sainnhe/everforest'
-	Plug 'hoob3rt/lualine.nvim'
+	Plug 'doums/darcula'
+	Plug 'nvim-lualine/lualine.nvim'
+	Plug 'sainnhe/gruvbox-material'
+    Plug 'kyazdani42/nvim-web-devicons'
+	Plug 'projekt0n/circles.nvim'
 	Plug 'projekt0n/github-nvim-theme'
 call plug#end()
