@@ -1,5 +1,3 @@
-if has('termguicolors')
-	set termguicolors
-endif
-
-colorscheme github_dimmed
+set termguicolors
+colorscheme space-vim-dark
+hi LineNr ctermbg=NONE guibg=NONE

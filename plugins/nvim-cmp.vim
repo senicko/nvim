@@ -8,7 +8,7 @@ lua <<EOF
     snippet = {
       -- REQUIRED - you must specify a snippet engine
       expand = function(args)
-        -- vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
         -- require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
         -- vim.fn["UltiSnips#Anon"](args.body) -- For `ultisnips` users.
         -- require'snippy'.expand_snippet(args.body) -- For `snippy` users.
@@ -23,7 +23,7 @@ lua <<EOF
         i = cmp.mapping.abort(),
         c = cmp.mapping.close(),
       }),
-      ['<Tab>'] = cmp.mapping.confirm({ select = true }),
+			['<Tab>'] = cmp.mapping.confirm({ select = true })
     },
     sources = cmp.config.sources({
       { name = 'nvim_lsp' },

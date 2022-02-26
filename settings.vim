@@ -1,13 +1,17 @@
 syntax on
-set rnu
+set rnu nu
+set nowrap
 set nocompatible
 set showmatch
 set ignorecase
 set mouse=v
 set hlsearch
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-set autoindent
-filetype plugin indent on
+set cc=120
 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set smartindent 
+
+filetype plugin indent on

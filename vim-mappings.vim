@@ -1,8 +1,8 @@
 " Resizing windows easier
-nnoremap <M-j> :resize -2<CR>
-nnoremap <M-k> :resize +2<CR>
-nnoremap <M-h> :vertical resize -2<CR>
-nnoremap <M-l> :vertical resize +2<CR>
+nnoremap ∆ :resize -2<CR>
+nnoremap Ż :resize +2<CR>
+nnoremap ķ :vertical resize -2<CR>
+nnoremap ł :vertical resize +2<CR>
 
 " Allow to place tabs and remove them in general mode
 nnoremap <TAB> :tabnext<CR>
