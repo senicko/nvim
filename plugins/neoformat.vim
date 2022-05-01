@@ -22,5 +22,5 @@ let g:neoformat_enabled_c = ['clangformat']
 
 augroup fmt
   autocmd!
-  autocmd BufWritePre * undojoin | Neoformat prettier
+  autocmd BufWritePre * undojoin | Neoformat
 augroup END
